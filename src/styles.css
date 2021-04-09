@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(red, green, blue)
+
+}
+main{position: relative;}
+hr{
+    border: solid#00FFFF;
+}
+.arrow{
+    display: flex;
+ justify-content: space-between; 
+ font-size: 30px;
+
+  }

@@ -1,0 +1,47 @@
+.slide{
+    margin-top: 0px;
+    
+
+}
+
+.row{
+    margin: 10px 0;
+   background-color: blue;
+   padding: 10px 0;
+
+}
+.left_summary{
+    background-color: lightblue;
+    height: 15vh;
+    overflow-y: scroll;
+    margin-left: 5px;
+    border: 5px #533214;
+    border-radius: 10px; 
+
+}
+.left_summary :hover{
+    border-radius: 15px;
+    
+}
+
+.home{
+    animation-name: example;
+    animation-duration: 4s;
+    font-size: 55px;
+}
+.subhead{
+    animation-name: subhead;
+    animation-duration: 4s;
+    font-size: 5vh;
+    text-align: center;
+}
+
+@keyframes example{
+    from {font-size: 1px;}
+    to {font-size: 55px;}
+}
+
+@keyframes subhead{
+    from {font-size: 0.5vh;}
+    to {font-size: 5vh;}
+}

@@ -1,0 +1,54 @@
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase
+  }
+  
+  .navbar .nav {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.2rem
+  }
+
+  .bio{
+      
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background-position: cover;
+      padding-bottom: 10px;
+      
+  }
+  .bio h2{
+      font-size: 45px;
+  }
+  .bio ul{
+      list-style: none;
+  }
+
+  .support{
+      padding: 10px 0;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 25px;
+  }
+ 
+  .me{
+      height: 50%;
+      width: 60%;
+      
+  }
+
+  ul{
+    font-size: 20px;
+  }
+  strong{
+      text-transform: capitalize;
+  }
+
+  .detail_list{
+    font-size: 15px !important;
+    list-style: square;
+    position: relative;
+    left: 0;
+  }
+  .detail_list{
+      text-align: left;
+  }

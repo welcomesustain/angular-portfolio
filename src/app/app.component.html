@@ -1,0 +1,56 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+<header class= "masthead">
+  <h1 class= "masthead-intro"> Hi, I'm</h1>
+  <h1 class="masthead-heading"> Sustain Welcome Shingange!</h1>
+  </header>
+<header class="navbar navbar-inverse bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a routerLink="" class="navbar-brand">My Personal Website</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a routerLink="/personalBio" routerLinkActive="active"> Personal Bio</a>
+        </li>
+        <li>
+          <a routerLink="/skills" routerLinkActive="active">Skills</a>
+        </li>
+        <li>
+          <a routerLink="/education" routerLinkActive="active"> Education</a>
+        </li>
+        <li>
+          <a routerLink="/hobbies" routerLinkActive="active">Hobbies</a>
+
+        </li>
+        <li class="active">
+          <a routerLink="/contact" routerLinkActive="active">Contact</a>
+        </li>
+        <li class="active">
+          <a routerLink="/email" routerLinkActive="active">Email Me</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+ <div class="container block">
+
+
+<router-outlet #outlet='outlet'></router-outlet>
+
+</div>

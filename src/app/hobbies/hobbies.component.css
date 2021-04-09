@@ -1,0 +1,26 @@
+.hobbies{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.hobbies li{
+   
+    padding: 0 30px;
+    list-style: none;
+    display: block;
+}
+
+.hobby{
+width: 215px;
+height: 215px;
+transition: 0.5s ease-in;
+}
+.hobby:hover{
+    width: 215px;
+height: 215px;
+cursor: pointer;
+}
+.pad{
+    margin: 2px;
+}

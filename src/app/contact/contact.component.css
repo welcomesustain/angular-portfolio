@@ -1,0 +1,28 @@
+.footer{
+    padding-top: 15px;
+}
+.icon{
+    font-size: 40px;
+}
+.location{
+    transition: 0.5s ease-in;
+}
+.location:hover{
+    font-size: 20px;
+
+}
+
+.links{
+    transition: 0.5s ease-in;
+}
+.links:hover{
+    font-size: 20px;
+
+}
+.socials{
+    transition: 0.5s ease-in;
+}
+.socials:hover{
+    font-size: 20px;
+
+}
